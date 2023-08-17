@@ -76,7 +76,7 @@
                             petals, a testament to nature's artistry.</p>
                         <p class="font-bold py-3">Price: 50 $</p>
                         <div class="card-actions">
-                            <button class="btn btn-success">Add To Cart</button>
+                            <button onclick="addToCart(this)" class="btn btn-success">Add To Cart</button>
                         </div>
                     </div>
                 </div>
@@ -90,9 +90,9 @@
                         <h2 class="card-title">Flower Two!</h2>
                         <p>Beauty in a flower lies not just in its vibrant hues, but in the delicate dance of its
                             petals, a testament to nature's artistry.</p>
-                        <p class="font-bold py-3">Price: 50 $</p>
+                        <p class="font-bold py-3">Price: 30 $</p>
                         <div class="card-actions">
-                            <button class="btn btn-success">Add To Cart</button>
+                            <button onclick="addToCart(this)" class="btn btn-success">Add To Cart</button>
                         </div>
                     </div>
                 </div>
@@ -106,19 +106,16 @@
                         <h2 class="card-title">Flower Three!</h2>
                         <p>Beauty in a flower lies not just in its vibrant hues, but in the delicate dance of its
                             petals, a testament to nature's artistry.</p>
-                        <p class="font-bold py-3">Price: 50 $</p>
+                        <p class="font-bold py-3">Price: 20 $</p>
                         <div class="card-actions">
-                            <button class="btn btn-success">Add To Cart</button>
+                            <button onclick="addToCart(this)" class="btn btn-success">Add To Cart</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bg-orange-300 text-xl font-semibold p-20">
+            <div class="bg-orange-300 text-xl font-semibold p-20 my-20">
                 <h2 class="text-3xl font-bold text-purple-700 py-3">Your Cart</h2>
-                <h3>Total Price: </h3>
-                <h2>Discount Price: </h2>
-                <hr class="border-solid border-[2px] border-gray-700 my-1">
-                <h2 class="font-bold">Final Price: </h2>
+                <h3>Total: <span id="total-price">0</span> Tk</h3>
 
             </div>
         </div>
